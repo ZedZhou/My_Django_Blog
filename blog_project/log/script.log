@@ -1,0 +1,1011 @@
+2016-12-15 07:55:16,538 [Thread-8:123145313181696] [django.request:182] [base:get_response] [WARNING]- Not Found: /achieve/index.html
+2016-12-15 07:55:28,295 [Thread-9:123145313181696] [django.request:182] [base:get_response] [WARNING]- Not Found: /index.html
+2016-12-15 07:55:38,665 [Thread-15:123145313181696] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 08:12:06,596 [Thread-2:123145473937408] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 08:12:09,172 [Thread-3:123145479192576] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 67, in index
+    return render(request,'left_content.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 41, in global_settings
+    'category_list':category_list,
+UnboundLocalError: local variable 'category_list' referenced before assignment
+2016-12-15 08:12:38,118 [Thread-8:123145473937408] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 67, in index
+    return render(request,'left_content.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 204, in render
+    with context.bind_template(self):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/context.py", line 260, in bind_template
+    updates.update(processor(self.request))
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 41, in global_settings
+    'category_list':category_list,
+UnboundLocalError: local variable 'category_list' referenced before assignment
+2016-12-15 08:39:49,324 [Thread-10:123145557999616] [django.request:182] [base:get_response] [WARNING]- Not Found: /article
+2016-12-15 08:40:21,854 [Thread-11:123145557999616] [django.request:182] [base:get_response] [WARNING]- Not Found: /article
+2016-12-15 08:40:26,923 [Thread-13:123145557999616] [django.request:182] [base:get_response] [WARNING]- Not Found: /article
+2016-12-15 09:33:37,070 [Thread-2:123145409617920] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 09:33:37,633 [Thread-3:123145414873088] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico/
+2016-12-15 09:33:43,929 [Thread-5:123145414873088] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 09:34:48,341 [Thread-15:123145425383424] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 92, in article
+    article = Article.objects.get(pk=id)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/query.py", line 378, in get
+    clone = self.filter(*args, **kwargs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1099, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/lookups.py", line 19, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/lookups.py", line 57, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 744, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 976, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2016-12-15 09:34:52,618 [Thread-16:123145430638592] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 92, in article
+    article = Article.objects.get(pk=id)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/query.py", line 378, in get
+    clone = self.filter(*args, **kwargs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1099, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/lookups.py", line 19, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/lookups.py", line 57, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 744, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 976, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2016-12-15 09:34:58,654 [Thread-18:123145409617920] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 92, in article
+    article = Article.objects.get(pk=id)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/query.py", line 378, in get
+    clone = self.filter(*args, **kwargs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/query.py", line 790, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/query.py", line 808, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1243, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1269, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1203, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1099, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/lookups.py", line 19, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/lookups.py", line 57, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 744, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 976, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+2016-12-15 09:37:01,074 [Thread-35:123145409617920] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 09:37:47,856 [Thread-37:123145414873088] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 09:39:22,384 [Thread-45:123145409617920] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 09:42:55,497 [Thread-49:123145414873088] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 96, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loaders/base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 517, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 535, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'index_2.html'> must be the first tag in the template.
+2016-12-15 09:44:54,906 [Thread-64:123145409617920] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/news.html
+2016-12-15 10:00:50,963 [Thread-2:123145412907008] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 10:00:51,250 [Thread-3:123145412907008] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-12-15 10:00:51,284 [Thread-4:123145412907008] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-12-15 11:23:37,417 [Thread-46:123145412907008] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/news.html
+2016-12-15 11:25:31,496 [Thread-50:123145412907008] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/article/
+2016-12-15 11:33:47,395 [Thread-59:123145412907008] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 12:33:54,103 [Thread-535:123145412907008] [django.request:182] [base:get_response] [WARNING]- Not Found: /article/article/
+2016-12-15 12:49:51,487 [Thread-2:123145426649088] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 93, in article
+    len_comments = article.comment_set()
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py", line 505, in __call__
+    manager = getattr(self.model, kwargs.pop('manager'))
+KeyError: 'manager'
+2016-12-15 12:49:54,312 [Thread-3:123145426649088] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 93, in article
+    len_comments = article.comment_set()
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py", line 505, in __call__
+    manager = getattr(self.model, kwargs.pop('manager'))
+KeyError: 'manager'
+2016-12-15 12:58:03,786 [Thread-2:123145510535168] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 98, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-15 13:50:59,129 [Thread-2:123145493139456] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-15 13:50:59,686 [Thread-3:123145493139456] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-12-15 13:50:59,740 [Thread-4:123145493139456] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-12-15 13:51:19,097 [Thread-5:123145493139456] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-16 01:53:35,488 [Thread-2:123145560145920] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-16 02:59:00,552 [Thread-9:123145427140608] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 131, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 03:11:26,518 [Thread-2:123145508171776] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 138, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'logout' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 03:50:48,765 [Thread-2:123145342283776] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-16 04:01:44,464 [Thread-2:123145338118144] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /comment/post/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 165, in comment_post
+    return redirect(request.META['HTTP_REFERE'])
+KeyError: 'HTTP_REFERE'
+2016-12-16 05:54:13,697 [Thread-8:123145417613312] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 141, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:02:59,186 [Thread-2:123145388978176] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 141, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:03:05,744 [Thread-5:123145394233344] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 141, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:09:17,131 [Thread-8:123145388978176] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 141, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:13:19,623 [Thread-13:123145388978176] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 141, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:14:19,754 [Thread-19:123145388978176] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.reg' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 141, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'reg' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:14:22,256 [Thread-20:123145394233344] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.reg' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 141, in article
+    return render(request,'article.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'reg' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:15:43,763 [Thread-28:123145399488512] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 229, in do_login
+    return render(request, 'login.html', locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'login' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:16:50,457 [Thread-32:123145399488512] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /login
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 62, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 100, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-12-16 06:19:35,155 [Thread-33:123145388978176] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /login
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 62, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 100, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-12-16 06:20:38,577 [Thread-59:123145388978176] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /reg/
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 507, in render
+    current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog_project.reg' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Zed_zhou/PycharmProjects/blog_project/blog_app01/views.py", line 206, in do_reg
+    return render(request,'reg.html',locals())
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/utils/six.py", line 686, in reraise
+    raise value
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'reg' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:21:08,944 [Thread-64:123145388978176] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /reg
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 62, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 100, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/reg/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-12-16 06:21:53,130 [Thread-2:123145313918976] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg
+2016-12-16 06:22:00,823 [Thread-3:123145313918976] [django.request:182] [base:get_response] [WARNING]- Not Found: /reg
+2016-12-16 06:23:03,939 [Thread-10:123145539145728] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /reg
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 62, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 100, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/reg/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-12-16 06:23:31,191 [Thread-11:123145539145728] [django.request:284] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /reg
+Traceback (most recent call last):
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 62, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/Users/Zed_zhou/django_venv/lib/python3.5/site-packages/django/middleware/common.py", line 100, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/reg/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2016-12-16 09:12:35,485 [Thread-2:123145405628416] [django.request:182] [base:get_response] [WARNING]- Not Found: /
+2016-12-16 09:12:36,201 [Thread-3:123145410883584] [django.request:182] [base:get_response] [WARNING]- Not Found: /favicon.ico/

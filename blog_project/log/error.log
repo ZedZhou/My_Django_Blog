@@ -1,0 +1,72 @@
+2016-12-15 02:17:38,272 [Thread-6:123145441853440] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:21:00,543 [Thread-8:123145441853440] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:21:02,768 [Thread-9:123145447108608] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:25:45,342 [Thread-2:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:25:46,669 [Thread-3:123145553571840] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:25:48,904 [Thread-4:123145558827008] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:25:51,552 [Thread-5:123145564082176] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:26:01,490 [Thread-7:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:26:53,163 [Thread-8:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:30:44,367 [Thread-11:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:36:51,115 [Thread-14:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:36:52,680 [Thread-15:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:37:09,742 [Thread-16:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:37:11,572 [Thread-17:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:37:24,096 [Thread-18:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:37:25,201 [Thread-19:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:37:25,917 [Thread-20:123145548316672] [blog.views:31] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:47:52,168 [Thread-2:123145451581440] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:48:13,903 [Thread-4:123145451581440] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:48:14,984 [Thread-5:123145456836608] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:48:39,510 [Thread-7:123145456836608] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:48:40,608 [Thread-8:123145451581440] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:49:02,008 [Thread-10:123145451581440] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:49:02,979 [Thread-2:123145549193216] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:49:23,184 [Thread-2:123145508990976] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:49:24,430 [Thread-3:123145514246144] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:51:00,049 [Thread-5:123145508990976] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:51:00,913 [Thread-6:123145514246144] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:52:39,711 [Thread-8:123145508990976] [blog.views:32] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2016-12-15 02:53:59,972 [Thread-2:123145363841024] [blog.views:32] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:54:00,004 [Thread-3:123145369096192] [blog.views:32] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:58:16,607 [Thread-2:123145515479040] [blog.views:32] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:58:18,460 [Thread-3:123145520734208] [blog.views:32] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:58:40,480 [Thread-2:123145383727104] [blog.views:32] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 02:58:41,733 [Thread-3:123145388982272] [blog.views:32] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 03:01:00,293 [Thread-2:123145315733504] [blog.views:32] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 03:01:46,499 [Thread-2:123145444311040] [blog.views:33] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 03:02:09,319 [Thread-3:123145444311040] [blog.views:33] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 03:31:36,830 [Thread-2:123145390936064] [blog.views:33] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 03:31:37,860 [Thread-3:123145390936064] [blog.views:33] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 03:37:31,586 [Thread-2:123145405149184] [blog.views:47] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:37:41,477 [Thread-3:123145410404352] [blog.views:33] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 03:37:42,281 [Thread-4:123145405149184] [blog.views:33] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 03:37:44,331 [Thread-5:123145410404352] [blog.views:47] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:39:22,051 [Thread-6:123145405149184] [blog.views:33] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 03:40:11,480 [Thread-8:123145405149184] [blog.views:47] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:40:59,698 [Thread-9:123145405149184] [blog.views:47] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:42:39,714 [Thread-2:123145525133312] [blog.views:51] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:43:26,302 [Thread-2:123145460908032] [blog.views:51] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:43:49,657 [Thread-2:123145510436864] [blog.views:51] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:44:27,628 [Thread-5:123145510436864] [blog.views:51] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:45:14,433 [Thread-2:123145528320000] [blog.views:54] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:45:15,679 [Thread-3:123145528320000] [blog.views:54] [views:achieve] [ERROR]- Cannot resolve keyword 'date_publish_icontents' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2016-12-15 03:48:40,948 [Thread-2:123145317498880] [blog.views:54] [views:achieve] [ERROR]- Unsupported lookup 'icontents' for DateTimeField or join on the field not permitted.
+2016-12-15 03:48:42,042 [Thread-3:123145322754048] [blog.views:54] [views:achieve] [ERROR]- Unsupported lookup 'icontents' for DateTimeField or join on the field not permitted.
+2016-12-15 03:48:43,228 [Thread-4:123145317498880] [blog.views:54] [views:achieve] [ERROR]- Unsupported lookup 'icontents' for DateTimeField or join on the field not permitted.
+2016-12-15 05:18:39,440 [Thread-5:123145469444096] [blog.views:53] [views:achieve] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2016-12-15 05:18:40,718 [Thread-6:123145469444096] [blog.views:53] [views:achieve] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'str'
+2016-12-15 07:40:16,958 [Thread-2:123145569361920] [blog.views:57] [views:index] [ERROR]- int() base must be >= 2 and <= 36
+2016-12-15 08:12:09,170 [Thread-3:123145479192576] [blog.views:36] [views:global_settings] [ERROR]- name 'Count' is not defined
+2016-12-15 08:12:38,117 [Thread-8:123145473937408] [blog.views:36] [views:global_settings] [ERROR]- name 'Count' is not defined
+2016-12-15 08:13:28,251 [Thread-2:123145358360576] [blog.views:38] [views:global_settings] [ERROR]- name 'Count' is not defined
+2016-12-15 08:14:21,253 [Thread-2:123145330089984] [blog.views:38] [views:global_settings] [ERROR]- name 'Count' is not defined
+2016-12-16 04:01:44,463 [Thread-2:123145338118144] [blog.views:164] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleaned_data'
+2016-12-16 04:03:31,857 [Thread-4:123145389383680] [blog.views:164] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleaned_data'
+2016-12-16 04:13:12,218 [Thread-2:123145545318400] [blog.views:164] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleaned_data'
+2016-12-16 04:14:04,704 [Thread-3:123145368764416] [blog.views:165] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'cleaned_data'
+2016-12-16 04:38:57,097 [Thread-2:123145569878016] [blog.views:168] [views:comment_post] [ERROR]- 'CommentForm' object has no attribute 'author'
+2016-12-16 04:56:56,735 [Thread-22:123145566650368] [blog.views:138] [views:article] [ERROR]- Article matching query does not exist.
+2016-12-16 05:13:55,812 [Thread-8:123145376686080] [blog.views:168] [views:comment_post] [ERROR]- invalid literal for int() with base 10: 'article.id'
+2016-12-16 06:20:16,921 [Thread-37:123145388978176] [blog.views:228] [views:do_login] [ERROR]- Reverse for '' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+2016-12-16 06:20:27,037 [Thread-49:123145388978176] [blog.views:228] [views:do_login] [ERROR]- Reverse for '' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
